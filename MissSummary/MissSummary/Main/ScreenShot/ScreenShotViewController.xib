@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScreenShotViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="x1Z-L9-nRV">
+                    <rect key="frame" x="41" y="126" width="293" height="415"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="415" id="6Ro-g7-iJg"/>
+                        <constraint firstAttribute="width" constant="293" id="Jjt-vT-PgP"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZKR-Pz-euw">
+                    <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                    <color key="backgroundColor" red="0.1004386674" green="0.46722833320000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="d4H-R2-efw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="截取屏幕并保存">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="screenShot:" destination="-1" eventType="touchUpInside" id="GQf-ZD-VXT"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="搞笑图片" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N39-PA-pEe">
+                    <rect key="frame" x="153" y="85" width="69.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="x1Z-L9-nRV" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="1x0-dH-Iox"/>
+                <constraint firstItem="N39-PA-pEe" firstAttribute="centerX" secondItem="x1Z-L9-nRV" secondAttribute="centerX" id="GhM-EJ-Ik8"/>
+                <constraint firstAttribute="trailing" secondItem="ZKR-Pz-euw" secondAttribute="trailing" id="NPV-wX-zdY"/>
+                <constraint firstItem="x1Z-L9-nRV" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="XXP-bp-BpG"/>
+                <constraint firstItem="x1Z-L9-nRV" firstAttribute="top" secondItem="N39-PA-pEe" secondAttribute="bottom" constant="20" id="dt5-cB-lKf"/>
+                <constraint firstItem="ZKR-Pz-euw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ogL-h7-SlA"/>
+                <constraint firstAttribute="bottom" secondItem="ZKR-Pz-euw" secondAttribute="bottom" id="ziR-4D-TKt"/>
+            </constraints>
+            <point key="canvasLocation" x="-11" y="40"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1.jpg" width="440" height="623"/>
+    </resources>
+</document>

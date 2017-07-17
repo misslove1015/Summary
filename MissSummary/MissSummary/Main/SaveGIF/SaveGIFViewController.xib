@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SaveGIFViewController">
+            <connections>
+                <outlet property="GIFImageView" destination="an6-d5-ecc" id="QUe-HX-acN"/>
+                <outlet property="netGIFImageView" destination="eQx-dh-87A" id="B2a-kc-p8W"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3H-M4-hp9">
+                    <rect key="frame" x="87.5" y="254" width="200" height="33"/>
+                    <color key="backgroundColor" red="0.1004386674" green="0.46722833320000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="sRB-Xx-gmW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="保存此GIF（本地）">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="saveGIF:" destination="-1" eventType="touchUpInside" id="lm3-2i-YvA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5df-sw-i3n">
+                    <rect key="frame" x="87" y="507" width="200" height="33"/>
+                    <color key="backgroundColor" red="0.1004386674" green="0.46722833320000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="aKk-FX-nA7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="保存此GIF（网络）">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="saveNetGIF:" destination="-1" eventType="touchUpInside" id="pEH-1P-Qyu"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eQx-dh-87A">
+                    <rect key="frame" x="112" y="337" width="150" height="150"/>
+                    <color key="backgroundColor" red="0.99215686270000003" green="0.8862745098" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="D53-wQ-lya"/>
+                        <constraint firstAttribute="height" constant="150" id="hD1-rB-JBN"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="an6-d5-ecc">
+                    <rect key="frame" x="112" y="84" width="150" height="150"/>
+                    <color key="backgroundColor" red="0.99215686270000003" green="0.8862745098" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="3jg-WC-qHl"/>
+                        <constraint firstAttribute="height" constant="150" id="NbK-JU-dib"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="an6-d5-ecc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0Jv-Cc-ZDT"/>
+                <constraint firstItem="eQx-dh-87A" firstAttribute="centerX" secondItem="an6-d5-ecc" secondAttribute="centerX" id="94P-EL-o8i"/>
+                <constraint firstItem="an6-d5-ecc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="Gmp-vM-0DS"/>
+                <constraint firstItem="g3H-M4-hp9" firstAttribute="top" secondItem="an6-d5-ecc" secondAttribute="bottom" constant="20" id="Z8u-sH-tsd"/>
+                <constraint firstItem="g3H-M4-hp9" firstAttribute="centerX" secondItem="an6-d5-ecc" secondAttribute="centerX" id="bIw-tx-7Qi"/>
+                <constraint firstItem="eQx-dh-87A" firstAttribute="top" secondItem="g3H-M4-hp9" secondAttribute="bottom" constant="50" id="dxC-a1-may"/>
+                <constraint firstItem="5df-sw-i3n" firstAttribute="top" secondItem="eQx-dh-87A" secondAttribute="bottom" constant="20" id="fGp-BR-HN5"/>
+                <constraint firstItem="5df-sw-i3n" firstAttribute="centerX" secondItem="eQx-dh-87A" secondAttribute="centerX" id="xyM-Dk-jzw"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

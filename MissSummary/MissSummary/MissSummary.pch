@@ -1,0 +1,21 @@
+//
+//  MissSummary.pch
+//  MissSummary
+//
+//  Created by miss on 2017/7/13.
+//  Copyright © 2017年 mukr. All rights reserved.
+//
+
+#ifndef MissSummary_pch
+#define MissSummary_pch
+
+
+#import "UIViewController+MSHUD.h"
+
+
+
+
+#endif /* MissSummary_pch */
+
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height

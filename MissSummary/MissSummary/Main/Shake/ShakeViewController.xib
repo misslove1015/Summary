@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShakeViewController">
+            <connections>
+                <outlet property="downView" destination="huR-D6-wkw" id="zjh-mV-jo3"/>
+                <outlet property="upView" destination="jVH-dJ-Ql4" id="iLq-uz-BBZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shake_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="4fm-MO-bxv">
+                    <rect key="frame" x="0.0" y="178" width="375" height="375"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="4fm-MO-bxv" secondAttribute="height" multiplier="1:1" id="WaE-tr-v4g"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jVH-dJ-Ql4">
+                    <rect key="frame" x="0.0" y="178" width="375" height="187.5"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shake_up.png" translatesAutoresizingMaskIntoConstraints="NO" id="h7r-MX-fix">
+                            <rect key="frame" x="112.5" y="104.5" width="150" height="83"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="h7r-MX-fix" secondAttribute="bottom" id="jT9-F1-BOW"/>
+                        <constraint firstItem="h7r-MX-fix" firstAttribute="centerX" secondItem="jVH-dJ-Ql4" secondAttribute="centerX" id="n6E-zh-mzp"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="huR-D6-wkw">
+                    <rect key="frame" x="0.0" y="365.5" width="375" height="187.5"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shake_down.png" translatesAutoresizingMaskIntoConstraints="NO" id="yYX-0O-IcO">
+                            <rect key="frame" x="112.5" y="0.0" width="150" height="82"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="yYX-0O-IcO" firstAttribute="top" secondItem="huR-D6-wkw" secondAttribute="top" id="88t-em-nfO"/>
+                        <constraint firstItem="yYX-0O-IcO" firstAttribute="centerX" secondItem="huR-D6-wkw" secondAttribute="centerX" id="Hiy-dA-Ick"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="huR-D6-wkw" firstAttribute="width" secondItem="jVH-dJ-Ql4" secondAttribute="width" id="2LB-uB-bJx"/>
+                <constraint firstItem="4fm-MO-bxv" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2Xj-n7-VXc"/>
+                <constraint firstItem="huR-D6-wkw" firstAttribute="top" secondItem="jVH-dJ-Ql4" secondAttribute="bottom" id="4BW-9t-n7o"/>
+                <constraint firstAttribute="trailing" secondItem="jVH-dJ-Ql4" secondAttribute="trailing" id="8RQ-ae-Gqd"/>
+                <constraint firstAttribute="trailing" secondItem="4fm-MO-bxv" secondAttribute="trailing" id="Bi0-y7-tKe"/>
+                <constraint firstItem="4fm-MO-bxv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KRq-jV-3sr"/>
+                <constraint firstItem="jVH-dJ-Ql4" firstAttribute="top" secondItem="4fm-MO-bxv" secondAttribute="top" id="Kzc-z9-FKk"/>
+                <constraint firstItem="4fm-MO-bxv" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="32" id="fx7-BJ-swr"/>
+                <constraint firstItem="huR-D6-wkw" firstAttribute="centerX" secondItem="jVH-dJ-Ql4" secondAttribute="centerX" id="nWP-Qv-lJv"/>
+                <constraint firstItem="jVH-dJ-Ql4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="p6s-nd-xQJ"/>
+                <constraint firstItem="huR-D6-wkw" firstAttribute="height" secondItem="jVH-dJ-Ql4" secondAttribute="height" id="qA0-Yc-2AT"/>
+                <constraint firstItem="jVH-dJ-Ql4" firstAttribute="height" secondItem="4fm-MO-bxv" secondAttribute="height" multiplier="1/2" id="u5t-QY-YLn"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="shake_bg.png" width="320" height="320"/>
+        <image name="shake_down.png" width="150" height="82"/>
+        <image name="shake_up.png" width="150" height="83"/>
+    </resources>
+</document>
