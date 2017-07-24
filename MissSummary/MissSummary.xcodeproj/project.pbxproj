@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CAC990E1F204BE300C9A6F3 /* ParabolaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC990C1F204BE200C9A6F3 /* ParabolaViewController.m */; };
+		4CAC990F1F204BE300C9A6F3 /* ParabolaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAC990D1F204BE200C9A6F3 /* ParabolaViewController.xib */; };
 		4CB113511F171DF40053CC73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB113501F171DF40053CC73 /* main.m */; };
 		4CB113541F171DF40053CC73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB113531F171DF40053CC73 /* AppDelegate.m */; };
 		4CB113571F171DF40053CC73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB113561F171DF40053CC73 /* ViewController.m */; };
@@ -66,6 +68,7 @@
 		4CD1C27F1F1C575F00754EDD /* shake_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1C27C1F1C575F00754EDD /* shake_down@2x.png */; };
 		4CD1C2801F1C575F00754EDD /* shake_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1C27D1F1C575F00754EDD /* shake_up@2x.png */; };
 		4CD1C2831F1C5BE600754EDD /* ShoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1C2821F1C5BE600754EDD /* ShoopView.m */; };
+		4CED5CE81F25A0A400728957 /* MSCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CED5CE71F25A0A400728957 /* MSCircleProgressView.m */; };
 		4CFD26EC1F1867020066C551 /* MSButtonEffectSrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD26EB1F1867020066C551 /* MSButtonEffectSrollView.m */; };
 		4CFD26EF1F186AC70066C551 /* NSString+MSMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD26EE1F186AC70066C551 /* NSString+MSMD5.m */; };
 /* End PBXBuildFile section */
@@ -88,6 +91,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CAC990B1F204BE200C9A6F3 /* ParabolaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParabolaViewController.h; sourceTree = "<group>"; };
+		4CAC990C1F204BE200C9A6F3 /* ParabolaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParabolaViewController.m; sourceTree = "<group>"; };
+		4CAC990D1F204BE200C9A6F3 /* ParabolaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParabolaViewController.xib; sourceTree = "<group>"; };
 		4CB1134C1F171DF40053CC73 /* MissSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB113501F171DF40053CC73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CB113521F171DF40053CC73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -192,6 +198,8 @@
 		4CD1C27D1F1C575F00754EDD /* shake_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shake_up@2x.png"; sourceTree = "<group>"; };
 		4CD1C2811F1C5BE600754EDD /* ShoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoopView.h; sourceTree = "<group>"; };
 		4CD1C2821F1C5BE600754EDD /* ShoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoopView.m; sourceTree = "<group>"; };
+		4CED5CE61F25A0A400728957 /* MSCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCircleProgressView.h; sourceTree = "<group>"; };
+		4CED5CE71F25A0A400728957 /* MSCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCircleProgressView.m; sourceTree = "<group>"; };
 		4CFD26EA1F1867020066C551 /* MSButtonEffectSrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSButtonEffectSrollView.h; sourceTree = "<group>"; };
 		4CFD26EB1F1867020066C551 /* MSButtonEffectSrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSButtonEffectSrollView.m; sourceTree = "<group>"; };
 		4CFD26ED1F186AC70066C551 /* NSString+MSMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MSMD5.h"; sourceTree = "<group>"; };
@@ -223,6 +231,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CAC990A1F204B8700C9A6F3 /* Parabola */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC990B1F204BE200C9A6F3 /* ParabolaViewController.h */,
+				4CAC990C1F204BE200C9A6F3 /* ParabolaViewController.m */,
+				4CAC990D1F204BE200C9A6F3 /* ParabolaViewController.xib */,
+			);
+			path = Parabola;
+			sourceTree = "<group>";
+		};
 		4CB113431F171DF40053CC73 = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +324,7 @@
 				4CD1C2631F1C501A00754EDD /* Dynamic */,
 				4CD1C2691F1C56B800754EDD /* Shake */,
 				4CD1C26A1F1C56B800754EDD /* Shoop */,
+				4CAC990A1F204B8700C9A6F3 /* Parabola */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -368,6 +387,8 @@
 				4CB113B61F1739C00053CC73 /* GradientProgressViewViewController.h */,
 				4CB113B71F1739C00053CC73 /* GradientProgressViewViewController.m */,
 				4CB113B81F1739C00053CC73 /* GradientProgressViewViewController.xib */,
+				4CED5CE61F25A0A400728957 /* MSCircleProgressView.h */,
+				4CED5CE71F25A0A400728957 /* MSCircleProgressView.m */,
 			);
 			path = GradientProgressView;
 			sourceTree = "<group>";
@@ -672,6 +693,7 @@
 				4CD1C2741F1C56E700754EDD /* ShoopViewController.xib in Resources */,
 				4CD1C27E1F1C575F00754EDD /* shake_bg@2x.png in Resources */,
 				4CB113971F17387A0053CC73 /* ScreenShotScrollViewViewController.xib in Resources */,
+				4CAC990F1F204BE300C9A6F3 /* ParabolaViewController.xib in Resources */,
 				4CB113B01F1739A60053CC73 /* ScrollViewButtonTapEffectViewController.xib in Resources */,
 				4CD1C27F1F1C575F00754EDD /* shake_down@2x.png in Resources */,
 				4CB113BF1F173A3F0053CC73 /* LocationViewController.xib in Resources */,
@@ -709,8 +731,10 @@
 				4CB1139B1F1738950053CC73 /* ScreenShotViewController.m in Sources */,
 				4CB1140C1F174E530053CC73 /* FLAnimatedImage.m in Sources */,
 				4CB114141F1750960053CC73 /* UIImageView+PlayGIF.m in Sources */,
+				4CAC990E1F204BE300C9A6F3 /* ParabolaViewController.m in Sources */,
 				4CB114151F1750960053CC73 /* YFGIFImageView.m in Sources */,
 				4CB113AA1F1739990053CC73 /* DeviceOrientationViewController.m in Sources */,
+				4CED5CE81F25A0A400728957 /* MSCircleProgressView.m in Sources */,
 				4CB113A51F1739750053CC73 /* ChangeAlertButtonColorViewController.m in Sources */,
 				4CB113891F171FE40053CC73 /* HomePageViewController.m in Sources */,
 				4CB113961F17387A0053CC73 /* ScreenShotScrollViewViewController.m in Sources */,

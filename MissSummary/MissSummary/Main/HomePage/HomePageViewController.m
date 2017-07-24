@@ -91,6 +91,9 @@
                    
                    @{@"name":@"咻一咻",
                      @"class":STRING_CLASS(ShoopViewController)},
+                   
+                   @{@"name":@"抛物线动画",
+                     @"class":STRING_CLASS(ParabolaViewController)},
                    ];
     }
     

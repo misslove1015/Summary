@@ -31,3 +31,5 @@
 #import "ShakeViewController.h"
 // 咻一咻
 #import "ShoopViewController.h"
+// 抛物线动画
+#import "ParabolaViewController.h"

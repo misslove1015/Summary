@@ -7,10 +7,12 @@
 //
 
 #import "GradientProgressViewViewController.h"
+#import "MSCircleProgressView.h"
 
 @interface GradientProgressViewViewController ()
 
 @property (weak, nonatomic) IBOutlet UIView *progressView;
+@property (weak, nonatomic) IBOutlet MSCircleProgressView *circleProgressView;
 
 @end
 
@@ -28,7 +30,10 @@
     CAGradientLayer *layer = [CAGradientLayer layer];
     layer.startPoint = CGPointMake(0, 0.5);
     layer.endPoint = CGPointMake(1, 0.5);
-    layer.colors = [NSArray arrayWithObjects:(id)[UIColor yellowColor].CGColor,(id)[UIColor orangeColor].CGColor,(id)[UIColor redColor].CGColor, nil];
+    layer.colors = [NSArray arrayWithObjects:
+                    (id)[UIColor yellowColor].CGColor,
+                    (id)[UIColor orangeColor].CGColor,
+                    (id)[UIColor redColor].CGColor, nil];
     CGFloat width = SCREEN_WIDTH-20;
     layer.frame = CGRectMake(0, 0, width, 4);
     [self.progressView.layer insertSublayer:layer atIndex:0];
@@ -39,12 +44,17 @@
     NSInteger randomNum = arc4random()%100;
     CGFloat width = (SCREEN_WIDTH-20)*randomNum/100;
 
-    [sender setTitle:[NSString stringWithFormat:@"随机进度（%ld%%）",randomNum] forState:UIControlStateNormal];
+    [sender setTitle:[NSString stringWithFormat:@"随机进度(%ld%%)",randomNum] forState:UIControlStateNormal];
     
     self.progressView.frame = CGRectMake(0, 0, 0, 4);
     [UIView animateWithDuration:1 animations:^{
         self.progressView.frame = CGRectMake(0, 0, width, 4);
     }];
+}
+
+- (IBAction)randomCircleProgress:(id)sender {
+    //self.circleProgressView.animatable = YES;
+    self.circleProgressView.percent = arc4random()%100;
 }
 
 
