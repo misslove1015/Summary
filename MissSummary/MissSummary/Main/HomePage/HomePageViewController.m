@@ -25,6 +25,7 @@
     
     self.title = @"首页";
     UITableView *tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) style:UITableViewStylePlain];
+    tableView.rowHeight = 50;
     tableView.delegate = self;
     tableView.dataSource = self;
     [self.view addSubview:tableView];
@@ -94,6 +95,19 @@
                    
                    @{@"name":@"抛物线动画",
                      @"class":STRING_CLASS(ParabolaViewController)},
+                   
+                   @{@"name":@"蓝牙",
+                     @"class":STRING_CLASS(BluetoothViewController)},
+                   
+                   @{@"name":@"Touch ID",
+                     @"class":STRING_CLASS(TouchIDViewController)},
+                   
+                   @{@"name":@"3D Touch",
+                     @"class":STRING_CLASS(ThreeDimensionalViewController)},
+                   
+                   @{@"name":@"更改APP图标",
+                     @"class":STRING_CLASS(ChangeAppIconViewController)},
+
                    ];
     }
     

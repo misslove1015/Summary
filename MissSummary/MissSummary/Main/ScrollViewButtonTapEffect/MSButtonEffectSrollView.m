@@ -10,7 +10,6 @@
 
 @implementation MSButtonEffectSrollView
 
-// 代码创建会走这个方法
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         self.delaysContentTouches = NO;
@@ -20,7 +19,6 @@
     return self;
 }
 
-// IB创建会走这个方法
 - (void)awakeFromNib {
     [super awakeFromNib];
     self.delaysContentTouches = NO;

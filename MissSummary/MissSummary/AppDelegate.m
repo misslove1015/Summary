@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HomePageViewController.h"
+#import "ThreeDimensionalViewController.h"
 
 @interface AppDelegate ()
 
@@ -25,6 +26,21 @@
     return YES;
 }
 
+
+- (void)application:(UIApplication *)application performActionForShortcutItem:(nonnull UIApplicationShortcutItem *)shortcutItem completionHandler:(nonnull void (^)(BOOL))completionHandler {
+
+    UINavigationController *nav = (UINavigationController *)self.window.rootViewController;
+    if (nav) {
+        ThreeDimensionalViewController *threeDimensional = [[ThreeDimensionalViewController alloc]init];
+        threeDimensional.touchTitle = shortcutItem.localizedTitle;
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [nav pushViewController:threeDimensional animated:YES];
+            
+        });
+
+    }
+    
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -45,6 +45,7 @@
         
     }];
     
+    // 8.4之后才有这个属性
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.4) {
         [confirmAction setValue:[UIColor blackColor] forKey:@"titleTextColor"];
         [cancelAction setValue:[UIColor blackColor] forKey:@"titleTextColor"];

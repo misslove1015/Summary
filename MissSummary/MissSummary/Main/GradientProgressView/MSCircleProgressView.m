@@ -12,12 +12,12 @@ CGFloat const lineWidth = 5;
 
 @interface MSCircleProgressView()
 
-@property (nonatomic, strong) CAShapeLayer *backgroundLine;
-@property (nonatomic, strong) CAShapeLayer *progressLine;
-@property (nonatomic, strong) CAGradientLayer *grain;
-@property (nonatomic, strong) UILabel *percentLabel;
-@property (nonatomic, strong) CADisplayLink *link;
-@property (nonatomic, assign) NSInteger progressNumber;
+@property (nonatomic, strong) CAShapeLayer      *backgroundLine;
+@property (nonatomic, strong) CAShapeLayer      *progressLine;
+@property (nonatomic, strong) CAGradientLayer   *grain;
+@property (nonatomic, strong) UILabel           *percentLabel;
+@property (nonatomic, strong) CADisplayLink     *link;
+@property (nonatomic, assign) NSInteger         progressNumber;
 
 @end
 

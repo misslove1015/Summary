@@ -12,6 +12,7 @@
 @interface LocationViewController ()<CLLocationManagerDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *addressLabel;
+
 @property (nonatomic, strong) CLLocationManager *locationManager;
 
 @end
@@ -58,6 +59,7 @@
         NSString *addressName = placemark.name;             // 具体地址
 
         self.addressLabel.text = [NSString stringWithFormat:@"%@%@%@%@%@%@",country,province,city,subLocality,street,addressName];
+        
     }];
     
     [self.locationManager stopUpdatingLocation];

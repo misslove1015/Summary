@@ -33,3 +33,11 @@
 #import "ShoopViewController.h"
 // 抛物线动画
 #import "ParabolaViewController.h"
+// 蓝牙
+#import "BluetoothViewController.h"
+// Touch ID
+#import "TouchIDViewController.h"
+// 3D Touch
+#import "ThreeDimensionalViewController.h"
+// 更改APP图标
+#import "ChangeAppIconViewController.h"

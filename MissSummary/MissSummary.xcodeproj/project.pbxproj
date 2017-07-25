@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CA5C2D31F27138700C450F3 /* TouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5C2D11F27138700C450F3 /* TouchIDViewController.m */; };
+		4CA5C2D41F27138700C450F3 /* TouchIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C2D21F27138700C450F3 /* TouchIDViewController.xib */; };
+		4CA5C2DD1F2713C800C450F3 /* ChangeAppIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5C2DB1F2713C800C450F3 /* ChangeAppIconViewController.m */; };
+		4CA5C2DE1F2713C800C450F3 /* ChangeAppIconViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C2DC1F2713C800C450F3 /* ChangeAppIconViewController.xib */; };
+		4CA5C2E11F27158B00C450F3 /* funny.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C2DF1F27158B00C450F3 /* funny.gif */; };
+		4CA5C2E21F27158B00C450F3 /* funny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C2E01F27158B00C450F3 /* funny.jpg */; };
+		4CA5C2E61F27173400C450F3 /* fingerprint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C2E51F27173400C450F3 /* fingerprint@2x.png */; };
+		4CA5C2EA1F271C2C00C450F3 /* ThreeDimensionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5C2E81F271C2C00C450F3 /* ThreeDimensionalViewController.m */; };
+		4CA5C2EB1F271C2C00C450F3 /* ThreeDimensionalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C2E91F271C2C00C450F3 /* ThreeDimensionalViewController.xib */; };
+		4CA5C2F41F273BA100C450F3 /* icon_huaji@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C2EC1F273BA100C450F3 /* icon_huaji@3x.png */; };
+		4CA5C2F51F273BA100C450F3 /* icon_huaji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C2ED1F273BA100C450F3 /* icon_huaji@2x.png */; };
+		4CA5C2F61F273BA100C450F3 /* icon_xiao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C2EE1F273BA100C450F3 /* icon_xiao@2x.png */; };
+		4CA5C2F71F273BA100C450F3 /* icon_xiao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C2EF1F273BA100C450F3 /* icon_xiao@3x.png */; };
+		4CA5C2F81F273BA100C450F3 /* icon_pen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C2F01F273BA100C450F3 /* icon_pen@2x.png */; };
+		4CA5C2F91F273BA100C450F3 /* icon_pen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C2F11F273BA100C450F3 /* icon_pen@3x.png */; };
+		4CA5C2FA1F273BA100C450F3 /* icon_keai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C2F21F273BA100C450F3 /* icon_keai@2x.png */; };
+		4CA5C2FB1F273BA100C450F3 /* icon_keai@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C2F31F273BA100C450F3 /* icon_keai@3x.png */; };
 		4CAC990E1F204BE300C9A6F3 /* ParabolaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC990C1F204BE200C9A6F3 /* ParabolaViewController.m */; };
 		4CAC990F1F204BE300C9A6F3 /* ParabolaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAC990D1F204BE200C9A6F3 /* ParabolaViewController.xib */; };
 		4CB113511F171DF40053CC73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB113501F171DF40053CC73 /* main.m */; };
@@ -52,8 +69,6 @@
 		4CB113F71F1741D20053CC73 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB113E81F1741D20053CC73 /* UIImageView+WebCache.m */; };
 		4CB113F81F1741D20053CC73 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB113EA1F1741D20053CC73 /* UIView+WebCacheOperation.m */; };
 		4CB113FD1F1742CF0053CC73 /* UIViewController+MSHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB113FC1F1742CF0053CC73 /* UIViewController+MSHUD.m */; };
-		4CB114041F1748B90053CC73 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4CB114021F1748B90053CC73 /* 1.gif */; };
-		4CB114051F1748B90053CC73 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CB114031F1748B90053CC73 /* 1.jpg */; };
 		4CB1140C1F174E530053CC73 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB114081F174E530053CC73 /* FLAnimatedImage.m */; };
 		4CB1140D1F174E530053CC73 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB1140A1F174E530053CC73 /* FLAnimatedImageView.m */; };
 		4CB114141F1750960053CC73 /* UIImageView+PlayGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB114111F1750960053CC73 /* UIImageView+PlayGIF.m */; };
@@ -69,6 +84,8 @@
 		4CD1C2801F1C575F00754EDD /* shake_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1C27D1F1C575F00754EDD /* shake_up@2x.png */; };
 		4CD1C2831F1C5BE600754EDD /* ShoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1C2821F1C5BE600754EDD /* ShoopView.m */; };
 		4CED5CE81F25A0A400728957 /* MSCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CED5CE71F25A0A400728957 /* MSCircleProgressView.m */; };
+		4CED5D351F25F34100728957 /* BluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CED5D331F25F34100728957 /* BluetoothViewController.m */; };
+		4CED5D361F25F34100728957 /* BluetoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CED5D341F25F34100728957 /* BluetoothViewController.xib */; };
 		4CFD26EC1F1867020066C551 /* MSButtonEffectSrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD26EB1F1867020066C551 /* MSButtonEffectSrollView.m */; };
 		4CFD26EF1F186AC70066C551 /* NSString+MSMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD26EE1F186AC70066C551 /* NSString+MSMD5.m */; };
 /* End PBXBuildFile section */
@@ -91,6 +108,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CA5C2D01F27138700C450F3 /* TouchIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIDViewController.h; sourceTree = "<group>"; };
+		4CA5C2D11F27138700C450F3 /* TouchIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIDViewController.m; sourceTree = "<group>"; };
+		4CA5C2D21F27138700C450F3 /* TouchIDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchIDViewController.xib; sourceTree = "<group>"; };
+		4CA5C2DA1F2713C800C450F3 /* ChangeAppIconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChangeAppIconViewController.h; path = MissSummary/Main/ChangeAppIcon/ChangeAppIconViewController.h; sourceTree = SOURCE_ROOT; };
+		4CA5C2DB1F2713C800C450F3 /* ChangeAppIconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChangeAppIconViewController.m; path = MissSummary/Main/ChangeAppIcon/ChangeAppIconViewController.m; sourceTree = SOURCE_ROOT; };
+		4CA5C2DC1F2713C800C450F3 /* ChangeAppIconViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChangeAppIconViewController.xib; path = MissSummary/Main/ChangeAppIcon/ChangeAppIconViewController.xib; sourceTree = SOURCE_ROOT; };
+		4CA5C2DF1F27158B00C450F3 /* funny.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = funny.gif; sourceTree = "<group>"; };
+		4CA5C2E01F27158B00C450F3 /* funny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = funny.jpg; sourceTree = "<group>"; };
+		4CA5C2E51F27173400C450F3 /* fingerprint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fingerprint@2x.png"; sourceTree = "<group>"; };
+		4CA5C2E71F271C2C00C450F3 /* ThreeDimensionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeDimensionalViewController.h; sourceTree = "<group>"; };
+		4CA5C2E81F271C2C00C450F3 /* ThreeDimensionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeDimensionalViewController.m; sourceTree = "<group>"; };
+		4CA5C2E91F271C2C00C450F3 /* ThreeDimensionalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeDimensionalViewController.xib; sourceTree = "<group>"; };
+		4CA5C2EC1F273BA100C450F3 /* icon_huaji@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_huaji@3x.png"; sourceTree = "<group>"; };
+		4CA5C2ED1F273BA100C450F3 /* icon_huaji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_huaji@2x.png"; sourceTree = "<group>"; };
+		4CA5C2EE1F273BA100C450F3 /* icon_xiao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_xiao@2x.png"; sourceTree = "<group>"; };
+		4CA5C2EF1F273BA100C450F3 /* icon_xiao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_xiao@3x.png"; sourceTree = "<group>"; };
+		4CA5C2F01F273BA100C450F3 /* icon_pen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pen@2x.png"; sourceTree = "<group>"; };
+		4CA5C2F11F273BA100C450F3 /* icon_pen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pen@3x.png"; sourceTree = "<group>"; };
+		4CA5C2F21F273BA100C450F3 /* icon_keai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_keai@2x.png"; sourceTree = "<group>"; };
+		4CA5C2F31F273BA100C450F3 /* icon_keai@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_keai@3x.png"; sourceTree = "<group>"; };
 		4CAC990B1F204BE200C9A6F3 /* ParabolaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParabolaViewController.h; sourceTree = "<group>"; };
 		4CAC990C1F204BE200C9A6F3 /* ParabolaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParabolaViewController.m; sourceTree = "<group>"; };
 		4CAC990D1F204BE200C9A6F3 /* ParabolaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParabolaViewController.xib; sourceTree = "<group>"; };
@@ -174,8 +211,6 @@
 		4CB113F91F1742370053CC73 /* MissSummary.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MissSummary.pch; sourceTree = "<group>"; };
 		4CB113FB1F1742CF0053CC73 /* UIViewController+MSHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MSHUD.h"; sourceTree = "<group>"; };
 		4CB113FC1F1742CF0053CC73 /* UIViewController+MSHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MSHUD.m"; sourceTree = "<group>"; };
-		4CB114021F1748B90053CC73 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
-		4CB114031F1748B90053CC73 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		4CB114071F174E530053CC73 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
 		4CB114081F174E530053CC73 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
 		4CB114091F174E530053CC73 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
@@ -200,6 +235,9 @@
 		4CD1C2821F1C5BE600754EDD /* ShoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoopView.m; sourceTree = "<group>"; };
 		4CED5CE61F25A0A400728957 /* MSCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCircleProgressView.h; sourceTree = "<group>"; };
 		4CED5CE71F25A0A400728957 /* MSCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCircleProgressView.m; sourceTree = "<group>"; };
+		4CED5D321F25F34100728957 /* BluetoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothViewController.h; sourceTree = "<group>"; };
+		4CED5D331F25F34100728957 /* BluetoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothViewController.m; sourceTree = "<group>"; };
+		4CED5D341F25F34100728957 /* BluetoothViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothViewController.xib; sourceTree = "<group>"; };
 		4CFD26EA1F1867020066C551 /* MSButtonEffectSrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSButtonEffectSrollView.h; sourceTree = "<group>"; };
 		4CFD26EB1F1867020066C551 /* MSButtonEffectSrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSButtonEffectSrollView.m; sourceTree = "<group>"; };
 		4CFD26ED1F186AC70066C551 /* NSString+MSMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MSMD5.h"; sourceTree = "<group>"; };
@@ -231,6 +269,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CA5C2CD1F27133000C450F3 /* TouchID */ = {
+			isa = PBXGroup;
+			children = (
+				4CA5C2D01F27138700C450F3 /* TouchIDViewController.h */,
+				4CA5C2D11F27138700C450F3 /* TouchIDViewController.m */,
+				4CA5C2D21F27138700C450F3 /* TouchIDViewController.xib */,
+			);
+			path = TouchID;
+			sourceTree = "<group>";
+		};
+		4CA5C2CE1F27134F00C450F3 /* 3DTouch */ = {
+			isa = PBXGroup;
+			children = (
+				4CA5C2E71F271C2C00C450F3 /* ThreeDimensionalViewController.h */,
+				4CA5C2E81F271C2C00C450F3 /* ThreeDimensionalViewController.m */,
+				4CA5C2E91F271C2C00C450F3 /* ThreeDimensionalViewController.xib */,
+			);
+			path = 3DTouch;
+			sourceTree = "<group>";
+		};
+		4CA5C2CF1F27136C00C450F3 /* ChangeAppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				4CA5C2DA1F2713C800C450F3 /* ChangeAppIconViewController.h */,
+				4CA5C2DB1F2713C800C450F3 /* ChangeAppIconViewController.m */,
+				4CA5C2DC1F2713C800C450F3 /* ChangeAppIconViewController.xib */,
+			);
+			name = ChangeAppIcon;
+			path = ChangeAppICon;
+			sourceTree = "<group>";
+		};
 		4CAC990A1F204B8700C9A6F3 /* Parabola */ = {
 			isa = PBXGroup;
 			children = (
@@ -325,6 +394,10 @@
 				4CD1C2691F1C56B800754EDD /* Shake */,
 				4CD1C26A1F1C56B800754EDD /* Shoop */,
 				4CAC990A1F204B8700C9A6F3 /* Parabola */,
+				4CED5D311F25F31100728957 /* Bluetooth */,
+				4CA5C2CD1F27133000C450F3 /* TouchID */,
+				4CA5C2CE1F27134F00C450F3 /* 3DTouch */,
+				4CA5C2CF1F27136C00C450F3 /* ChangeAppIcon */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -332,11 +405,20 @@
 		4CB113841F171E4D0053CC73 /* Resoures */ = {
 			isa = PBXGroup;
 			children = (
+				4CA5C2EC1F273BA100C450F3 /* icon_huaji@3x.png */,
+				4CA5C2ED1F273BA100C450F3 /* icon_huaji@2x.png */,
+				4CA5C2EE1F273BA100C450F3 /* icon_xiao@2x.png */,
+				4CA5C2EF1F273BA100C450F3 /* icon_xiao@3x.png */,
+				4CA5C2F01F273BA100C450F3 /* icon_pen@2x.png */,
+				4CA5C2F11F273BA100C450F3 /* icon_pen@3x.png */,
+				4CA5C2F21F273BA100C450F3 /* icon_keai@2x.png */,
+				4CA5C2F31F273BA100C450F3 /* icon_keai@3x.png */,
+				4CA5C2E51F27173400C450F3 /* fingerprint@2x.png */,
 				4CD1C27B1F1C575F00754EDD /* shake_bg@2x.png */,
 				4CD1C27C1F1C575F00754EDD /* shake_down@2x.png */,
 				4CD1C27D1F1C575F00754EDD /* shake_up@2x.png */,
-				4CB114031F1748B90053CC73 /* 1.jpg */,
-				4CB114021F1748B90053CC73 /* 1.gif */,
+				4CA5C2DF1F27158B00C450F3 /* funny.gif */,
+				4CA5C2E01F27158B00C450F3 /* funny.jpg */,
 			);
 			path = Resoures;
 			sourceTree = "<group>";
@@ -575,6 +657,16 @@
 			path = Shoop;
 			sourceTree = "<group>";
 		};
+		4CED5D311F25F31100728957 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				4CED5D321F25F34100728957 /* BluetoothViewController.h */,
+				4CED5D331F25F34100728957 /* BluetoothViewController.m */,
+				4CED5D341F25F34100728957 /* BluetoothViewController.xib */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -683,15 +775,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CB113A11F1739410053CC73 /* SaveGIFViewController.xib in Resources */,
+				4CA5C2F41F273BA100C450F3 /* icon_huaji@3x.png in Resources */,
 				4CB113BA1F1739C00053CC73 /* GradientProgressViewViewController.xib in Resources */,
 				4CB113B51F1739B20053CC73 /* MD5ViewController.xib in Resources */,
 				4CD1C26F1F1C56D700754EDD /* ShakeViewController.xib in Resources */,
+				4CA5C2F61F273BA100C450F3 /* icon_xiao@2x.png in Resources */,
+				4CA5C2E61F27173400C450F3 /* fingerprint@2x.png in Resources */,
 				4CD1C2801F1C575F00754EDD /* shake_up@2x.png in Resources */,
+				4CA5C2F51F273BA100C450F3 /* icon_huaji@2x.png in Resources */,
 				4CB1135F1F171DF50053CC73 /* LaunchScreen.storyboard in Resources */,
-				4CB114041F1748B90053CC73 /* 1.gif in Resources */,
+				4CA5C2FB1F273BA100C450F3 /* icon_keai@3x.png in Resources */,
+				4CA5C2DE1F2713C800C450F3 /* ChangeAppIconViewController.xib in Resources */,
+				4CA5C2EB1F271C2C00C450F3 /* ThreeDimensionalViewController.xib in Resources */,
 				4CB1135C1F171DF50053CC73 /* Assets.xcassets in Resources */,
 				4CD1C2741F1C56E700754EDD /* ShoopViewController.xib in Resources */,
 				4CD1C27E1F1C575F00754EDD /* shake_bg@2x.png in Resources */,
+				4CA5C2F71F273BA100C450F3 /* icon_xiao@3x.png in Resources */,
 				4CB113971F17387A0053CC73 /* ScreenShotScrollViewViewController.xib in Resources */,
 				4CAC990F1F204BE300C9A6F3 /* ParabolaViewController.xib in Resources */,
 				4CB113B01F1739A60053CC73 /* ScrollViewButtonTapEffectViewController.xib in Resources */,
@@ -699,10 +798,16 @@
 				4CB113BF1F173A3F0053CC73 /* LocationViewController.xib in Resources */,
 				4CB1135A1F171DF50053CC73 /* Main.storyboard in Resources */,
 				4CB113A61F1739750053CC73 /* ChangeAlertButtonColorViewController.xib in Resources */,
+				4CA5C2D41F27138700C450F3 /* TouchIDViewController.xib in Resources */,
+				4CA5C2F91F273BA100C450F3 /* icon_pen@3x.png in Resources */,
 				4CB1139C1F1738950053CC73 /* ScreenShotViewController.xib in Resources */,
 				4CB113AB1F1739990053CC73 /* DeviceOrientationViewController.xib in Resources */,
 				4CD1C2681F1C504100754EDD /* DynamicAnimationViewController.xib in Resources */,
-				4CB114051F1748B90053CC73 /* 1.jpg in Resources */,
+				4CA5C2E21F27158B00C450F3 /* funny.jpg in Resources */,
+				4CA5C2F81F273BA100C450F3 /* icon_pen@2x.png in Resources */,
+				4CA5C2FA1F273BA100C450F3 /* icon_keai@2x.png in Resources */,
+				4CED5D361F25F34100728957 /* BluetoothViewController.xib in Resources */,
+				4CA5C2E11F27158B00C450F3 /* funny.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,20 +855,24 @@
 				4CB113571F171DF40053CC73 /* ViewController.m in Sources */,
 				4CFD26EC1F1867020066C551 /* MSButtonEffectSrollView.m in Sources */,
 				4CB113F61F1741D20053CC73 /* UIImageView+HighlightedWebCache.m in Sources */,
+				4CA5C2D31F27138700C450F3 /* TouchIDViewController.m in Sources */,
 				4CB113ED1F1741D20053CC73 /* SDWebImageCompat.m in Sources */,
 				4CB113EB1F1741D20053CC73 /* NSData+ImageContentType.m in Sources */,
 				4CB113541F171DF40053CC73 /* AppDelegate.m in Sources */,
 				4CB113F11F1741D20053CC73 /* SDWebImageManager.m in Sources */,
 				4CB113EF1F1741D20053CC73 /* SDWebImageDownloader.m in Sources */,
+				4CA5C2DD1F2713C800C450F3 /* ChangeAppIconViewController.m in Sources */,
 				4CB113511F171DF40053CC73 /* main.m in Sources */,
 				4CB113F41F1741D20053CC73 /* UIImage+GIF.m in Sources */,
 				4CD1C2731F1C56E700754EDD /* ShoopViewController.m in Sources */,
 				4CB113AF1F1739A60053CC73 /* ScrollViewButtonTapEffectViewController.m in Sources */,
 				4CB113F21F1741D20053CC73 /* SDWebImagePrefetcher.m in Sources */,
+				4CA5C2EA1F271C2C00C450F3 /* ThreeDimensionalViewController.m in Sources */,
 				4CB113F31F1741D20053CC73 /* UIButton+WebCache.m in Sources */,
 				4CD1C2831F1C5BE600754EDD /* ShoopView.m in Sources */,
 				4CB113F71F1741D20053CC73 /* UIImageView+WebCache.m in Sources */,
 				4CB113F81F1741D20053CC73 /* UIView+WebCacheOperation.m in Sources */,
+				4CED5D351F25F34100728957 /* BluetoothViewController.m in Sources */,
 				4CB113F51F1741D20053CC73 /* UIImage+MultiFormat.m in Sources */,
 				4CB113EE1F1741D20053CC73 /* SDWebImageDecoder.m in Sources */,
 				4CB113FD1F1742CF0053CC73 /* UIViewController+MSHUD.m in Sources */,

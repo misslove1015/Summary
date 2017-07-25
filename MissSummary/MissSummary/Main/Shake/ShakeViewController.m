@@ -12,8 +12,9 @@
 
 @property (weak, nonatomic) IBOutlet UIView *upView;
 @property (weak, nonatomic) IBOutlet UIView *downView;
-@property (assign, nonatomic) CGRect upRect;
-@property (assign, nonatomic) CGRect downRect;
+
+@property (nonatomic, assign) CGRect upRect;
+@property (nonatomic, assign) CGRect downRect;
 
 @end
 

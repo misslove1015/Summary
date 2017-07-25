@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BluetoothViewController">
+            <connections>
+                <outlet property="indicatorView" destination="or2-aV-hfN" id="pLp-0F-abn"/>
+                <outlet property="tableView" destination="qxL-KM-sgB" id="jNi-AZ-Yea"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qxL-KM-sgB">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="467"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8u-2l-qXt">
+                    <rect key="frame" x="50" y="557" width="275" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="JGJ-Gi-Gw8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="搜索设备">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="searchPeripheral:" destination="-1" eventType="touchUpInside" id="8l0-c6-Epo"/>
+                    </connections>
+                </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="or2-aV-hfN">
+                    <rect key="frame" x="227.5" y="567" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qxL-KM-sgB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8Mq-BE-bYP"/>
+                <constraint firstItem="or2-aV-hfN" firstAttribute="centerY" secondItem="r8u-2l-qXt" secondAttribute="centerY" id="9fk-Qz-qwi"/>
+                <constraint firstItem="or2-aV-hfN" firstAttribute="centerX" secondItem="r8u-2l-qXt" secondAttribute="centerX" constant="50" id="N0O-Wf-6lO"/>
+                <constraint firstAttribute="bottom" secondItem="r8u-2l-qXt" secondAttribute="bottom" constant="70" id="Toe-gX-GTQ"/>
+                <constraint firstAttribute="trailing" secondItem="qxL-KM-sgB" secondAttribute="trailing" id="ZTa-4a-WUL"/>
+                <constraint firstAttribute="trailing" secondItem="r8u-2l-qXt" secondAttribute="trailing" constant="50" id="b3n-cc-bDC"/>
+                <constraint firstItem="r8u-2l-qXt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="egU-Kd-fDT"/>
+                <constraint firstItem="r8u-2l-qXt" firstAttribute="top" secondItem="qxL-KM-sgB" secondAttribute="bottom" constant="90" id="wjO-h7-1Ac"/>
+                <constraint firstItem="qxL-KM-sgB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="z4N-28-1dj"/>
+            </constraints>
+            <point key="canvasLocation" x="-61.5" y="74.5"/>
+        </view>
+    </objects>
+</document>

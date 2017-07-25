@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.GIFImageView.gifPath = [[NSBundle mainBundle] pathForResource:@"1" ofType:@"gif"];
+    self.GIFImageView.gifPath = [[NSBundle mainBundle] pathForResource:@"funny" ofType:@"gif"];
     [self.GIFImageView startGIF];
     
     [self.netGIFImageView sd_setImageWithURL:[NSURL URLWithString:@"http://img.zcool.cn/community/015c0a55ae5a3232f875495e221f22.gif"]];
@@ -31,7 +31,7 @@
 }
 
 - (IBAction)saveGIF:(id)sender {
-    NSData *data = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"1" ofType:@"gif"]];
+    NSData *data = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"funny" ofType:@"gif"]];
     ALAssetsLibrary *library = [[ALAssetsLibrary alloc]init];
     [library writeImageDataToSavedPhotosAlbum:data metadata:nil completionBlock:^(NSURL *assetURL, NSError *error) {
         if (!error) {

@@ -11,6 +11,7 @@
 @interface DynamicAnimationViewController ()
 
 @property (strong ,nonatomic) UIDynamicAnimator *animator;
+
 @property (weak, nonatomic) IBOutlet UIView *view1;
 @property (weak, nonatomic) IBOutlet UIView *view2;
 @property (weak, nonatomic) IBOutlet UIView *view3;
